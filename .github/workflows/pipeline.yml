@@ -45,7 +45,7 @@ jobs:
         run: |
           ssh -i ~/.ssh/deploy_key -p ${{ secrets.SSH_PORT }} ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} << 'EOF'
           set -e
-          cd /home/mikhail/apps/my-telegram-bot
+          cd /home/mikhail/apps/my-telegram-bot/tg-news-bot
           git pull
           docker compose down || true
           docker compose up --build -d
