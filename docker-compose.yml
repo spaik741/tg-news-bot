@@ -7,5 +7,9 @@ services:
     restart: always
     ports:
       - "8080:8080"
+    environment:
+      - TG_BOT_TOKEN=${TG_BOT_TOKEN}
+      - NEWS_KEY=${NEWS_KEY}
     env_file:
       - .env
+

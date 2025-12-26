@@ -3,9 +3,9 @@ spring:
     name: tg-news-bot
 
 bot:
-  token: 8383187474:AAEhDigPUxSPRtjKnmubEsFtjZNcsU5Ti7E
+  token: ${TG_BOT_TOKEN}
   name: DailyByteBotNews
 
 feign:
   news:
-    key: bce9543db00244779f131e0ca31df844
+    key: ${NEWS_KEY}
