@@ -1,0 +1,4 @@
+### GET request to example server
+GET https://newsapi.org/v2/everything?q=bitcoin&from=2025-12-20&sortBy=popularity&apiKey=bce9543db00244779f131e0ca31df844&pageSize=1
+
+###

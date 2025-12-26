@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: tg-news-bot
+
+bot:
+  token: 8383187474:AAEhDigPUxSPRtjKnmubEsFtjZNcsU5Ti7E
+  name: DailyByteBotNews
+
+feign:
+  news:
+    key: bce9543db00244779f131e0ca31df844
